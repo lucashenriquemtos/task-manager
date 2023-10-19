@@ -6,7 +6,7 @@ import {Tarefa} from "./tarefa.model";
 })
 export class TarefaService {
 
-  constructor() { }
+  //constructor() { }
   listarTodos(): Tarefa[] {
     const tarefas = localStorage['tarefas'];
     return tarefas ? JSON.parse(tarefas) : [];
